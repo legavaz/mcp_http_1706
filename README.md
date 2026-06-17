@@ -128,7 +128,7 @@ curl -X POST "http://localhost:3000/message?sessionId=xxx" ^
 
 ## Подключение к Cline
 
-Чтобы Cline мог использовать инструменты этого сервера, нужно добавить его в конфигурацию MCP.
+Чтобы Cline мог использовать инструменты этого сервера, нужно добавить его в конфигурацию MCP. (но не заработает!!! так как cline не поддерживает, тестирую на других агентах)
 
 **Файл конфигурации Cline:**
 `C:\Users\lega\AppData\Roaming\Code\User\globalStorage\saoudrizwan.claude-dev\settings\cline_mcp_settings.json`
