@@ -148,6 +148,12 @@ curl -X POST "http://localhost:3000/message?sessionId=xxx" ^
   "args": [
     "d:\\project\\ai\\mcp_http_1706\\build\\index.js"
   ]
+  // или 
+    "mcp-http-server": {
+      "url": "http://localhost:3000/sse",
+      "timeout": 60
+    }  
+  
 }
 ```
 
